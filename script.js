@@ -5,7 +5,6 @@
 // ---------- Pages ----------
 const pageOne = document.querySelector(".page-one");
 const pageTwo = document.querySelector(".page-two");
-const pageThree = document.querySelector(".page-three");
 const pageFour = document.querySelector(".page-four");
 const pageFive = document.querySelector(".page-five");
 const pageSix = document.querySelector(".page-six");
@@ -14,7 +13,6 @@ const pageEight = document.querySelector(".page-eight");
 // ---------- Buttons ----------
 const begin = document.querySelector(".begin");
 const continueOne = document.querySelector(".continueOne");
-const archiveBegin = document.querySelector(".archiveBegin");
 const continueFour = document.querySelector(".continueFour");
 const continueFive = document.querySelector(".continueFive");
 const continueSix = document.querySelector(".continueSix");
@@ -59,11 +57,7 @@ begin.addEventListener("click", function () {
 });
 // ---------- Before You Continue ----------
 continueOne.addEventListener("click", function () {
-    showPage(pageTwo, pageThree);
-});
-// ---------- Archive ----------
-archiveBegin.addEventListener("click", function () {
-    showPage(pageThree, pageFour);
+    showPage(pageTwo, pageFour);
 });
 // ---------- Thank You ----------
 continueFour.addEventListener("click", function () {
