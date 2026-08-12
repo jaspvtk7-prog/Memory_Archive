@@ -310,25 +310,17 @@ function displayMessages(messages) {
 
             bubble.className =
                 "chat-message";
-
-
-            /* --------------------------------
-               SENT / RECEIVED
-            -------------------------------- */
-
+           
             if (
-                currentUser &&
-                message.sender === currentUser.uid
+             currentUser &&
+             message.sender === currentUser.uid
             ) {
-
-                bubble.classList.add("sent");
-
+             bubble.classList.add("sent");
+             bubble.style.alignSelf = "flex-end";
             } else {
-
-                bubble.classList.add("received");
+             bubble.classList.add("received");
+             bubble.style.alignSelf = "flex-start";
             }
-
-
             /* --------------------------------
                MESSAGE TEXT
             -------------------------------- */
