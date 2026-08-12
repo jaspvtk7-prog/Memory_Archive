@@ -177,19 +177,13 @@ body{
     word-wrap:break-word;
     position:relative;
 }
-/* ==========================================
-   YOUR MESSAGES
-========================================== */
 .chat-message.sent{
-    align-self:flex-end;
+    align-self:flex-end !important;
     background:#efe2c5;
     border-radius:16px 16px 4px 16px;
 }
-/* ==========================================
-   HER MESSAGES
-========================================== */
 .chat-message.received{
-    align-self:flex-start;
+    align-self:flex-start !important;
     background:#fffaf0;
     border:1px solid #e4d8bd;
     border-radius:16px 16px 16px 4px;
