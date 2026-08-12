@@ -246,3 +246,102 @@ body{
     opacity:.5;
     margin-top:8px;
 }
+/* ==========================================
+   MOBILE VERSION
+========================================== */
+@media (max-width: 600px){
+    body{
+        width:100%;
+        overflow-x:hidden;
+    }
+    .page{
+        width:100%;
+        padding:25px 0;
+    }
+    /* ---------- LANDING ---------- */
+    .landing{
+        width:90%;
+        padding:30px 25px;
+        gap:20px;
+        flex-direction:column;
+        text-align:center;
+    }
+    .doodle{
+        width:65px;
+    }
+    .opening{
+        font-size:1.7rem;
+        margin-bottom:20px;
+    }
+    .waiting{
+        font-size:1.15rem;
+        line-height:1.6;
+        margin-bottom:30px;
+    }
+    .begin{
+        font-size:1rem;
+        padding:11px 25px;
+    }
+    /* ---------- MEMORY PAGES ---------- */
+    .page:has(.memory){
+        padding:30px 0;
+    }
+    .memory{
+        width:90%;
+        padding:30px 25px;
+        border-radius:16px;
+    }
+    .memory h1{
+        font-size:2rem;
+    }
+    .memory h2{
+        font-size:1.9rem;
+        margin-bottom:20px;
+    }
+    .memory p{
+        font-size:1.05rem;
+        line-height:1.7;
+        margin-bottom:28px;
+    }
+    .memory button{
+        padding:11px 24px;
+        font-size:1rem;
+    }
+    /* ---------- CHAT ---------- */
+    .chat-page{
+        width:92%;
+        height:82vh;
+        padding:20px;
+        border-radius:16px;
+    }
+    .chat-messages{
+        padding:8px 2px;
+        gap:10px;
+    }
+    .chat-message{
+        max-width:82%;
+        padding:10px 13px;
+        font-size:1rem;
+        line-height:1.45;
+    }
+    .chat-guide{
+        font-size:.85rem;
+        margin:10px 0;
+    }
+    .chat-input-area{
+        gap:7px;
+    }
+    .chat-input-area textarea{
+        min-height:46px;
+        padding:11px 13px;
+        font-size:1rem;
+    }
+    .chat-input-area button{
+        width:46px;
+        height:46px;
+        flex-shrink:0;
+    }
+    .autosave-status{
+        font-size:.75rem;
+    }
+}
