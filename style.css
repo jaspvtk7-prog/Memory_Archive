@@ -169,16 +169,30 @@ body{
     gap:12px;
 }
 .chat-message{
-    align-self:flex-end;
     max-width:75%;
     padding:12px 16px;
-    background:#efe2c5;
-    border-radius:16px 16px 4px 16px;
     font-size:1.05rem;
     line-height:1.5;
     white-space:pre-wrap;
     word-wrap:break-word;
     position:relative;
+}
+/* ==========================================
+   YOUR MESSAGES
+========================================== */
+.chat-message.sent{
+    align-self:flex-end;
+    background:#efe2c5;
+    border-radius:16px 16px 4px 16px;
+}
+/* ==========================================
+   HER MESSAGES
+========================================== */
+.chat-message.received{
+    align-self:flex-start;
+    background:#fffaf0;
+    border:1px solid #e4d8bd;
+    border-radius:16px 16px 16px 4px;
 }
 .delete-message{
     display:block;
