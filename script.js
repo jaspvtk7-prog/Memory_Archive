@@ -9,12 +9,12 @@
 ========================================== */
 
 const firebaseConfig = {
-    apiKey: "AIzaSyB0QItkdK0HB-6_7ML2VtRuuHAc9sws6v_E",
+    apiKey: "AIzaSyBOQltdK0HB-6_7ML2VtRuUHAc9sws6v_E",
     authDomain: "memory-archive-38ac8.firebaseapp.com",
     projectId: "memory-archive-38ac8",
     storageBucket: "memory-archive-38ac8.firebasestorage.app",
     messagingSenderId: "176924998768",
-    appId: "1:176924998768:web:f16645c410c121c0b5c8",
+    appId: "1:176924998768:web:f16645c410c121c0b5c8b5",
     measurementId: "G-S9ZS5Y23M0",
     databaseURL: "https://memory-archive-38ac8-default-rtdb.asia-southeast1.firebasedatabase.app"
 };
